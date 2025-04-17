@@ -19,7 +19,7 @@ app_ui = ui.page_fluid(
             }),
             ui.input_slider("val", "Valeur de test", min=0, max=100, value=50)
         ),
-        # 👉 Pas besoin de main_panel : on met les outputs directement ici
+        
         ui.output_ui("iris_plot"),
         ui.output_text("slider_val")
     )
